@@ -139,19 +139,7 @@ class crud{
         }
         return json_encode($arr);   
     }
-    // public function getcutomerdetails(){
-    //     $sql="SELECT * FROM registrants;";
-    //     $result=mysqli_query($this->conn,$sql);
-    //     $arr=array();
-    //     if(mysqli_num_rows($result)>0)
-    //     {
-    //         while($row=mysqli_fetch_assoc($result))
-    //         {
-    //             $arr[]=$row;
-    //         }
-    //     }
-    //     return json_encode($arr);      
-    // }
+   
 
 }
 ?>
